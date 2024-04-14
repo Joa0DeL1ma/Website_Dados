@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+body{
+    background-color: cadetblue;
+}
+
+.Resultado{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Honk';
+}
+
+#Jogador1{
+    text-align: end;
+    margin-right: 60px;
+}
+
+#Jogador2{
+    text-align: start;
+    margin-left: 60px;
+}
+
+.Dados{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 35px;
+    font-family: 'Honk';
+    text-align: center;
+    gap: 50px;
+}
+
+#Dado1{
+    text-align: end;
+}
+
+#Dado2{
+    text-align: start;
+}
